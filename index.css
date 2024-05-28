@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(109, 85, 55);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+article{
+    text-align: justify;
+    height: 100vh;
+}
+#scroll-indicator{
+    width: 0;
+    height: .40rem;
+    background-color: rgb(254, 247, 247);
+    position: fixed;
+    top: 0;
+    border-radius: 5px;
+    
+}
